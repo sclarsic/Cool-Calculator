@@ -106,7 +106,7 @@ def compute(string):
 
 
 if __name__ == "__main__":
-    test_str = '(+ (- 10 10) 10)'
+    test_str = '(+ (+ 10 10) 10)'
     print('%s = %f' % (test_str, compute(test_str)))
 
 
