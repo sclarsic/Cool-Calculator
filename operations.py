@@ -19,13 +19,13 @@ sym_dict['+'] = ('add', 'Corban S.')
 
 # SUBTRACTION Operation Entry ##############################
 
-# Desired Functionality: (- a b) = ???
+# Desired Functionality: (- a b) = a - b
 
 def subtract(a, b):
-    return 0
+    return a - b
 
 
-sym_dict['-'] = ()
+sym_dict['-'] = ('subtract', 'Mr. Swain')
 ############################################################
 
 
