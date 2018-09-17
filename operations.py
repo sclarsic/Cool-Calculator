@@ -43,7 +43,7 @@ sym_dict['/'] = ()
 
 
 
-# MULTIPLICATION Operation Entry ###########################
+com# MULTIPLICATION Operation Entry ###########################
 
 # Desired Functionality: (* a b) = ???
 
@@ -66,4 +66,16 @@ def power(a, b):
 
 
 sym_dict['^'] = ()
+############################################################
+
+# AND Operation Entry ###########################
+
+# Desired Functionality: (& a b) = a & b
+# Hint: exponentiation in python is performed with the `**` symbol
+
+def _and(a, b):
+    return a & b
+
+
+sym_dict['&'] = ('_and', 'Corban Swain')
 ############################################################
